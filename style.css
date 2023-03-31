@@ -25,5 +25,45 @@ h1, h2, h3, h4, p {
     text-shadow: 0px 0px 5px black;
 }
 
+.gifts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gift1, .gift2, .gift3 {
+    height:650px;
+    width:300px;
+    background-size:cover;
+    border: 5px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 5px black;
+    margin: 20px 0 20px 0;
+} 
+
+.gift1 {
+    background-image: url("images/giftCover.JPG");
+}
+
+.gift1:hover {
+    background-image: url("images/surah2ayat183.jpeg");
+
+}
+
+.gift2 {
+    background-image: url("images/giftCover.JPG");
+
+}
+
+.gift2:hover {
+    background-image: url("images/surah2ayat184.jpeg");
+}
+
+.gift3 {
+    background-image: url("images/giftCover.JPG");
+}
+
+.gift3:hover {
+    background-image: url("images/surah2ayat185.jpeg");
+}
 
 
